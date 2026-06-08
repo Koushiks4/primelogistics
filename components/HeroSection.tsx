@@ -40,6 +40,7 @@ export default function HeroSection() {
       initial="hidden"
       animate="visible"
     >
+      <br></br>
       {/* Main Headline */}
       <motion.div variants={itemVariants} className="space-y-1">
         <h1 className="text-brand-white font-bold leading-[0.9] tracking-tight">

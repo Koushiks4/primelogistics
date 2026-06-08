@@ -60,13 +60,43 @@ export default function ContactInfo() {
 
           {/* Phone */}
           <motion.a
-            href={`tel:${CONTACT.phone.replace(/\s/g, '')}`}
+            href={`tel:${CONTACT.phone1.replace(/\s/g, '')}`}
             whileHover={{ x: 4 }}
             className="block text-brand-white hover:text-brand-red transition-colors duration-300"
-            aria-label={`Phone: ${CONTACT.phone}`}
+            aria-label={`Phone: ${CONTACT.phone1}`}
           >
             <span className="text-xs sm:text-sm md:text-base font-medium">
-              {CONTACT.phone}
+              {CONTACT.phone2}
+            </span>
+          </motion.a>
+          <motion.a
+            href={`tel:${CONTACT.phone2.replace(/\s/g, '')}`}
+            whileHover={{ x: 4 }}
+            className="block text-brand-white hover:text-brand-red transition-colors duration-300"
+            aria-label={`Phone: ${CONTACT.phone2}`}
+          >
+            <span className="text-xs sm:text-sm md:text-base font-medium">
+              {CONTACT.phone2}
+            </span>
+          </motion.a>
+          <motion.a
+            href={`tel:${CONTACT.phone3.replace(/\s/g, '')}`}
+            whileHover={{ x: 4 }}
+            className="block text-brand-white hover:text-brand-red transition-colors duration-300"
+            aria-label={`Phone: ${CONTACT.phone3}`}
+          >
+            <span className="text-xs sm:text-sm md:text-base font-medium">
+              {CONTACT.phone3}
+            </span>
+          </motion.a>
+          <motion.a
+            href={`tel:${CONTACT.phone4.replace(/\s/g, '')}`}
+            whileHover={{ x: 4 }}
+            className="block text-brand-white hover:text-brand-red transition-colors duration-300"
+            aria-label={`Phone: ${CONTACT.phone4}`}
+          >
+            <span className="text-xs sm:text-sm md:text-base font-medium">
+              {CONTACT.phone4}
             </span>
           </motion.a>
         </div>
