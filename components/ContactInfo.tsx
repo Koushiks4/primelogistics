@@ -66,7 +66,7 @@ export default function ContactInfo() {
             aria-label={`Phone: ${CONTACT.phone1}`}
           >
             <span className="text-xs sm:text-sm md:text-base font-medium">
-              {CONTACT.phone2}
+              {CONTACT.phone1}
             </span>
           </motion.a>
           <motion.a
