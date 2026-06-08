@@ -9,8 +9,11 @@ export const BRAND_COLORS = {
 } as const;
 
 export const CONTACT = {
-  email: 'info@primelogisticservices.com',
-  phone: '+1 (XXX) XXX-XXXX',
+  email: 'support@primelogisticservice.com',
+  phone1: '+91 9739994318',
+  phone2: '+91 9739991318',
+  phone3: '+91 9739998518',
+  phone4: '+91 9739991518',
 } as const;
 
 export const MESSAGING = {
