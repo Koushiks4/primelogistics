@@ -10,20 +10,26 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Prime Logistic Services - Coming Soon | Global B2B Logistics",
-  description: "Premium B2B logistics solutions coming soon. Dependable global delivery services for businesses that demand excellence.",
-  keywords: ["B2B logistics", "global delivery", "business shipping", "logistics services", "international freight", "supply chain solutions"],
+  metadataBase: new URL("https://primelogisticservice.com"),
+  icons: {
+    icon: '/icon.svg',
+    shortcut: '/icon.svg',
+    apple: '/icon.svg',
+  },
+  title: "Prime Logistic Services — Domestic & International Shipping",
+  description: "Tech-driven logistics solutions for domestic and international shipping. Real-time tracking, express delivery, and seamless logistics across 500+ cities.",
+  keywords: ["logistics", "shipping", "domestic shipping", "international shipping", "express delivery", "tracking", "freight", "courier services", "supply chain"],
   authors: [{ name: "Prime Logistic Services" }],
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://primelogisticservices.com",
-    title: "Prime Logistic Services - Coming Soon | Global B2B Logistics",
-    description: "Premium B2B logistics solutions coming soon. Dependable global delivery services for businesses that demand excellence.",
+    title: "Prime Logistic Services — Domestic & International Shipping",
+    description: "Tech-driven logistics solutions for domestic and international shipping. Real-time tracking, express delivery, and seamless logistics across 500+ cities.",
     siteName: "Prime Logistic Services",
     images: [
       {
-        url: "/logos/logo 1@4x-100.png",
+        url: "/logos/logo14x-1002.png",
         width: 1200,
         height: 630,
         alt: "Prime Logistic Services Logo",
@@ -32,9 +38,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Prime Logistic Services - Coming Soon | Global B2B Logistics",
-    description: "Premium B2B logistics solutions coming soon. Dependable global delivery services for businesses that demand excellence.",
-    images: ["/logos/logo 1@4x.png"],
+    title: "Prime Logistic Services — Domestic & International Shipping",
+    description: "Tech-driven logistics solutions for domestic and international shipping. Real-time tracking, express delivery, and seamless logistics across 500+ cities.",
+    images: ["/logos/logo14x-1002.png"],
   },
   robots: {
     index: true,
