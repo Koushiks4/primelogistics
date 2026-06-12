@@ -44,7 +44,7 @@ export default function FranchiseSection() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           name, email, phone,
-          city_location: city,
+          city,
           investment_budget: investmentBudget,
           business_experience: businessExperience || undefined,
           message: message || undefined,
